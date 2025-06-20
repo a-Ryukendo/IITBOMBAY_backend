@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  backend:
+    image: deepanshupatel/iitbombay_backend:latest
+    ports:
+      - "8080:8080"
+  frontend:
+    image: deepanshupatel/iitbombay_frontend:latest
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend 
