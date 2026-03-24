@@ -3,7 +3,7 @@ package com.iitbombay.coursesapi.model;
 public enum CourseType {
     CORE,
     ELECTIVE,
-    LAB,
+    LABORATORY,
     PROJECT,
     SEMINAR,
     WORKSHOP
